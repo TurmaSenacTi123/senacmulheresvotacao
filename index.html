@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados do Firebase</title>
+    <link rel="stylesheet" href="ver_historia.css">
+</head>
+<body>
+    <div class="email1"> 
+        <label for="email"><font size="10">Email:</font></label><br>
+        <input type="email" id="email" placeholder="Digite seu email institucional">
+    </div><br>
+    <div class="moldura"> 
+        <h1>Histórias Criadas</h1>
+        <div class="botoes-container"> 
+            <button id="hist1">História 1<br><font size="2.3">(clique para ler)</font></button>
+            <button class="bt" id="voto_1">Votar</button>
+        </div>
+        <br>
+        <div class="botoes-container"> 
+            <button id="hist2">História 2<br><font size="2.3">(clique para ler)</font></button>
+            <button class="bt" id="voto_2">Votar</button>
+        </div>
+        <br>
+        <div class="botoes-container">
+            <button id="hist3">História 3<br><font size="2.3">(clique para ler)</font></button>
+            <button class="bt" id="voto_3">Votar</button>
+        </div>
+        <img id="senac1" src="/logo senac/senac.png" alt="" >
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/9.4.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.4.0/firebase-database-compat.js"></script>
+    <script src="ver_historia.js"></script>
+</body>
+</html>
