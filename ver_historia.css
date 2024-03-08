@@ -1,0 +1,115 @@
+body {
+    background-color: rgba(255, 192, 203, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.email1 {
+    background-color: rgb(255, 182, 193);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #333;
+    font-size: 10px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    height: 100px;
+    width: 350px;
+    border-radius: 5px;
+    margin-top: 230px;
+    margin-left: 1200px; 
+    text-align: center;
+}
+
+
+#email {
+    background-color: rgb(252, 149, 164);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 300px;
+}
+
+.moldura {
+    background-color: rgb(255, 182, 193);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 75px;
+    max-width: 600px;
+    height: 750px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 30px;
+    font-size: 5px;
+}
+
+.moldura button {
+    background-color: rgb(252, 149, 164);
+    color: #333;
+    border-radius: 5px;
+    height: 75px;
+    width: 180px;
+    font-size: 20px;
+    font-weight: none;
+    border: none;
+    outline: none;
+    margin: 15px;
+    margin-top: 15px;
+}
+
+.moldura .bt {
+    border-radius: 100px;
+    height: 80px;
+    width: 80px;
+    font-size: 20px;
+}
+
+.moldura button[id^="voto_"] {
+    margin-left: 15px;
+}
+
+h1 {
+    color: #333;
+    font-size: 45px;
+    margin-top: 90px;
+}
+
+h2{
+    color: #333;
+    font-size: 24px;
+}
+h3{
+    color: #333;
+    font-size: 14px;
+    margin-right: 300px;
+}
+.botoes-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#senac1{
+    width: 250px;
+    /*border: solid red;*/
+}
+
+.mensagem-container {
+    border-radius: 5px;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(255, 182, 193);
+    color: rgb#333;
+    text-align: center;
+    padding: 15px;
+    z-index: 1000;
+}
+
+
